@@ -11,11 +11,12 @@ knitr::opts_chunk$set(
 )
 ```
 
-# NCL Git and GitHub overview
+# NHS BSOL ICS  Git and GitHub overview
 
-These slides are an overview of Git and GitHub for analytical teams at NCL.
-This is not a training session per se, and we will run more practical training for those who are interested.
+These slides are an overview of Git and GitHub for analytical teams in BSOL ICS.
+This is not a training session per se, but more an overview of the functionality with code to get started.
 
 
-You can view them published on the web at:
-https://ncl-icb-analytics.github.io/intro_to_git/intro_slides.html
+This is based on work I did at NHS North Central London ICB, so citing here:
+
+https://github.com/ncl-icb-analytics/intro_to_git

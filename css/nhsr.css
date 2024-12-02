@@ -177,9 +177,9 @@ blockquote {
 
 /*-- NHS organisation logo --*/
 .title-slide {
-  background-image:    url(../img/logo.jpg);
+  background-image:    url(../img/logo.png);
   background-position: 95% 5%;
-  background-size: 160px 70px;
+  background-size: 250px 50px;
 }
 
 /*-- Headings --*/

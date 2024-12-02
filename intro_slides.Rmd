@@ -53,7 +53,7 @@ class: title-slide, left
 
 ### `r rmarkdown::metadata$author`
 ### `r rmarkdown::metadata$date`
-Artwork by @allison_horst".
+Artwork by @allison_horst
 ---
 
 ## Managing your files
