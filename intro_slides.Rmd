@@ -205,7 +205,7 @@ git add -all
 
 __Beware with adding all, as you must check there are no data files or things you don't want committed.__
 <br>
-__One solutions is a .gitignore file, which we will use in NCL template.__
+__One solutions is a .gitignore file, which we will use in BSOL template.__
 
 ---
 
@@ -291,7 +291,7 @@ Artwork by @allison_horst
 
 A lot of possible workflows with GitHub, but couple of relevant steps as a new user:
 1. Start on machine, create blank github repository and add it as a remote
-2. Start on github, create a repository and clone it you machine to work on.  __Recommended with NCL template__
+2. Start on github, create a repository and clone it you machine to work on.  __Recommended with BSOL template__
 
 
 <img src="https://wac-cdn.atlassian.com/dam/jcr:34c86360-8dea-4be4-92f7-6597d4d5bfae/02%20Feature%20branches.svg?cdnVersion=1054)" width="350" class="center"/>
@@ -418,13 +418,13 @@ ___A word on security and IG.:___
   + `.gitignore` file
   + Tools such as `precommit` python library
   + Put credentials in 'environmental variables' or encrypted keystores, or better still don't script them.
-  + Use a template with these standards as a starting point: e.g. NCL template or Government Data Science Cookie Cutter.
+  + Use a template with these standards as a starting point: e.g. BSOL template or Government Data Science Cookie Cutter.
   
 
 ---
-# NCL GitHub organsiation
+# BSOL ICS GitHub organsiation
 
-+ To manager our organisations projects, I've set up a 'GitHub Organisation'.  Several administrators/owners, but come to me with queries.
++ To manager our organisations projects, we have a 'GitHub Organisation'.  Several administrators/owners, but come to me with queries.
 
 .pull-left[
 + Set up a template repository:
@@ -437,12 +437,33 @@ ___A word on security and IG.:___
 
 .pull-right[
 
-![](./img/NCL_github_template.png)
+![](./img/BSOL_github_template.png)
+
+https://github.com/Birmingham-and-Solihull-ICS/BSOLproject
+]
+---
+# Using the BSOL ICS GitHub template
+
+.pull-left[
+
+__When creating a new repository:__
+
++ Set the template to 'Birmingham-and-Solihull-ICS/BSOLproject'
+
++ Set the 'Owner' to 'Birmingham-and-Solihull-ICS'
+
++ In general, we should look to publish in the public rather than private, but you can change this setting any time if you are concerned.
+
 ]
 
+.pull-right[
+
+![](./img/using_bsol_template.png)
+
+]
 ---
 
-# Using GitHub at NCL
+# Using GitHub at BSOL
 
 + Will run more in-depth sessions with users wanting more knowledge and to start using it.
 
@@ -472,10 +493,10 @@ ___A word on security and IG.:___
 
 + GitHub is the most popular of the `remote` provider services and can be used free.
 
-+ We have an NCL GitHub organisation, let me know your username and I'll make you part of the organisation
++ We have an BSOL GitHub organisation, let me know your username and I'll make you part of the organisation
 
-+ NCL template has been thought out to help prevent accidental publishing of data files. __Please use it!__
++ BSOL template has been thought out to help prevent accidental publishing of data files. __Please use it!__
 
-+ To use it, create a new repository on GitHub based on the template, then clone it to ou machine before starting work.
++ To use it, create a new repository on GitHub based on the template, then clone it to your machine before starting work.
 
 + Don't worry about making mistakes, have a try and see, even if it's just on your machine.
